@@ -50,10 +50,11 @@ var name == "John Doe";  // This is wrong way of assigning a value, actually you
 ```
 ### 3. strict comparision 
 
-``` 
-age === "33";
-
-age === 33;
+```  
+  "John Doe age is " === "33";
+  "John Doe age is " === 33; 
+  
+ 
 
 ```
-The value 33 is kept in between quatation. That means javascript understood it as a string
+The value 33 is kept in between quatation. That means javascript understood it as a string. The strict opeator not only compare age is equal to 33, but also it compare which data type. Here the datatype are equal  and without the quotation mark the data type is not equal. 

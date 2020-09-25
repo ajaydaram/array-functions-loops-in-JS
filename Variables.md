@@ -58,3 +58,25 @@ var name == "John Doe";  // This is wrong way of assigning a value, actually you
 
 ```
 The value 33 is kept in between quatation. That means javascript understood it as a string. The strict opeator not only compare age is equal to 33, but also it compare which data type. Here the datatype are equal  and without the quotation mark the data type is not equal. 
+
+# multiple conditions 
+
+### 1. && 
+
+```
+if (name === "John" && lastName === "Doe") {
+   run the code 
+}
+```
+In the above code even one statement is false, the code will not execute. 
+
+### 2. || 
+
+```
+if (day === "Saturday" || day === "Sunday") {
+ //Execute this code 
+}
+
+```
+In the above code even one condition is true , code will be executed. 
+
